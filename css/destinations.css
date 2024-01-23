@@ -1,0 +1,77 @@
+/* /* STYLING FOR ICELAND * */
+.iceland-background {
+    background-image: url(../assets/Images/iceland.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.hawaii-background {
+    background-image: url(../assets/Images/hawaii.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.greece-background {
+    background-image: url(../assets/Images/greece.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.container__card li {
+    color: black;
+    font-size: 22px;
+    list-style-type: none;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+padding-top: 2.5rem;
+padding-left: 6rem;
+padding-right: 6rem;
+padding-bottom: 8rem;
+}
+
+.page-title {
+    font-weight: 700;
+    font-size: 5rem;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10rem 2rem 5rem;
+    width: auto;
+ }
+
+ .container__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    width: 20rem;
+    height: 25rem;
+    margin: 1rem 1.5rem;
+    border-radius: .5rem;
+    text-align: center;
+    background-color: white;
+    padding-top: 1.25rem;
+    padding-bottom: 3.75rem;
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+
+ }
+
+.day-of-week {
+    border-bottom: 3px solid black;
+    font-weight:bolder;
+}

@@ -1,0 +1,87 @@
+                                                /* UNIVERSAL NAV AND BODY STYLES LOCATED IN GLOBAL CSS */
+
+                                                /* HERO SECTION! */
+.hero {
+    
+    background-color: #FEFAF5;
+    display: flex; 
+    
+  }
+
+.hero__card {
+    width: 50%;
+    color: #335576;
+    padding: 5rem;
+  }
+
+.hero__img {
+    width: 75%;
+  }
+
+.hero__img-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 50%
+  }
+  
+button {
+     background-color: #DB7A4E;
+     color: #FEFAF5;
+     border: none;
+     border-radius: 30px;
+     padding: 10px 40px;
+     cursor: pointer;
+
+  }
+                                                /* LOCATIONS CARD SECTION */
+
+section {
+    padding-top: 2.5rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-bottom: 2.5rem;
+
+   }
+
+.container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0 10rem 3rem 10rem;
+   width: auto;
+}
+
+.container__card {
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+    margin: 1rem 1.5rem;
+    width: 20rem;
+    height: 32rem;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.card-title h3{
+    font-weight: bold;
+    font-size: 2rem;
+    position:absolute;
+    bottom: 0rem;
+    right: 1rem;
+    color: white;
+}
+
+.container__card--hawaii {
+    background-image: url(../assets/Images/hawaii.jpg);
+}
+
+.container__card--iceland {
+    background-image: url(../assets/Images/iceland.jpg);
+}
+
+.container__card--greece {
+    background-image: url(../assets/Images/greece.jpg);
+}
+
